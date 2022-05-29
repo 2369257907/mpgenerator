@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.study.it.mapper.SzLianjiaMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.study.it.entity.SzLianjia">
+        <result column="city" property="city" />
+        <result column="title" property="title" />
+        <result column="release_time" property="releaseTime" />
+        <result column="price" property="price" />
+        <result column="rent_method" property="rentMethod" />
+        <result column="house_type" property="houseType" />
+        <result column="floor" property="floor" />
+        <result column="direction" property="direction" />
+        <result column="subway" property="subway" />
+        <result column="xiaoqu" property="xiaoqu" />
+        <result column="jingdu" property="jingdu" />
+        <result column="picture" property="picture" />
+        <result column="weidu" property="weidu" />
+        <result column="introduction" property="introduction" />
+        <result column="time" property="time" />
+        <result column="url" property="url" />
+        <result column="heyanma" property="heyanma" />
+        <result column="position" property="position" />
+        <result column="size" property="size" />
+    </resultMap>
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        city, title, release_time, price, rent_method, house_type, floor, direction, subway, xiaoqu, jingdu, picture, weidu, introduction, time, url, heyanma, position, size
+    </sql>
+
+</mapper>

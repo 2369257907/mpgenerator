@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.study.it.mapper.TOrderMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.study.it.entity.TOrder">
+        <id column="id" property="id" />
+        <result column="name" property="name" />
+        <result column="total_price" property="totalPrice" />
+        <result column="pay_price" property="payPrice" />
+        <result column="discount" property="discount" />
+        <result column="transport_price" property="transportPrice" />
+        <result column="order_no" property="orderNo" />
+        <result column="user_id" property="userId" />
+        <result column="username" property="username" />
+        <result column="create_time" property="createTime" />
+        <result column="pay_time" property="payTime" />
+        <result column="state" property="state" />
+    </resultMap>
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        id, name, total_price, pay_price, discount, transport_price, order_no, user_id, username, create_time, pay_time, state
+    </sql>
+
+</mapper>

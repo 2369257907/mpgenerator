@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.study.it.mapper.高军（664）Mapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.study.it.entity.高军（664）">
+        <result column="XH" property="xh" />
+        <result column="JIAOSHI" property="jiaoshi" />
+        <result column="YUANBU" property="yuanbu" />
+        <result column="JIAOYANSHI" property="jiaoyanshi" />
+        <result column="GM" property="gm" />
+        <result column="YAN" property="yan" />
+        <result column="BANJI" property="banji" />
+        <result column="R1" property="r1" />
+        <result column="KNAME" property="kname" />
+        <result column="T1" property="t1" />
+        <result column="Q1" property="q1" />
+        <result column="Q11" property="q11" />
+        <result column="Q12" property="q12" />
+        <result column="SHUOMING" property="shuoming" />
+        <result column="K11" property="k11" />
+        <result column="S1" property="s1" />
+        <result column="K12" property="k12" />
+        <result column="KK12" property="kk12" />
+        <result column="R2" property="r2" />
+        <result column="T2" property="t2" />
+        <result column="BG" property="bg" />
+        <result column="FZS" property="fzs" />
+        <result column="R3" property="r3" />
+        <result column="S3" property="s3" />
+        <result column="W" property="w" />
+        <result column="ND" property="nd" />
+        <result column="XINGZHI" property="xingzhi" />
+        <result column="ZHICHENG" property="zhicheng" />
+        <result column="S2" property="s2" />
+        <result column="C12" property="c12" />
+        <result column="K2" property="k2" />
+        <result column="Q2" property="q2" />
+        <result column="Q31" property="q31" />
+        <result column="Q32" property="q32" />
+        <result column="Q33" property="q33" />
+        <result column="FL" property="fl" />
+        <result column="R32" property="r32" />
+        <result column="R33" property="r33" />
+        <result column="K31" property="k31" />
+        <result column="GANGWEI" property="gangwei" />
+    </resultMap>
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        XH, JIAOSHI, YUANBU, JIAOYANSHI, GM, YAN, BANJI, R1, KNAME, T1, Q1, Q11, Q12, SHUOMING, K11, S1, K12, KK12, R2, T2, BG, FZS, R3, S3, W, ND, XINGZHI, ZHICHENG, S2, C12, K2, Q2, Q31, Q32, Q33, FL, R32, R33, K31, GANGWEI
+    </sql>
+
+</mapper>
